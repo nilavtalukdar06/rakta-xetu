@@ -120,7 +120,7 @@ erDiagram
     PAYMENTS {
       ObjectId _id
       ObjectId donationId
-      string provider (razorpay)
+      string provider
       string status
       number amount
     }
